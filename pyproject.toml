@@ -5,7 +5,7 @@ description = "[insert project description]"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
-    "llmcompare",
+    "urim",
 ]
 
 [dependency-groups]
@@ -19,4 +19,4 @@ dev = [
 default-groups = "all"
 
 [tool.uv.sources]
-llmcompare = { git = "https://github.com/johny-b/llmcompare.git", rev = "main" }
+urim = { git = "https://github.com/Dylan102938/urim.git", rev = "main" }
